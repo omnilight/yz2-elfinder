@@ -19,7 +19,7 @@ class Bootstrap implements BootstrapInterface
     {
         $app->i18n->translations['admin/elfinder'] = [
             'class' => 'yii\i18n\PhpMessageSource',
-            'basePath' => '@yz/admin/messages',
+            'basePath' => '@yz/admin/elfinder/messages',
             'sourceLanguage' => 'en-US',
         ];
     }
