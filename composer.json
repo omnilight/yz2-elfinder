@@ -19,6 +19,6 @@
         "psr-4": { "yz\\admin\\elfinder\\": "" }
     },
     "extra": {
-        "bootstrap": "yz\\admin\\elfinder"
+        "bootstrap": "yz\\admin\\elfinder\\Bootstrap"
     }
 }
