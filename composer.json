@@ -1,0 +1,24 @@
+{
+    "name": "omnilight/yz2-elfinder",
+    "description": "Module providing filemanager for Yz2 Admin",
+    "keywords": ["yii2", "yz2", "filemanager"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "mihaildev/yii2-elfinder": "*"
+    },
+    "autoload": {
+        "psr-4": { "yz\\admin\\elfinder": "" }
+    },
+    "extra": {
+        "bootstrap": "yz\\admin\\elfinder"
+    }
+}
