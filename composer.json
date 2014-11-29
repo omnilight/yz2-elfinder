@@ -16,7 +16,7 @@
         "mihaildev/yii2-elfinder": "*"
     },
     "autoload": {
-        "psr-4": { "yz\\admin\\elfinder": "" }
+        "psr-4": { "yz\\admin\\elfinder\\": "" }
     },
     "extra": {
         "bootstrap": "yz\\admin\\elfinder"
