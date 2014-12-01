@@ -41,7 +41,7 @@ class Module extends \yz\Module
                 'icon' => Icons::o('folder-o'),
                 'items' => [
                     [
-                        'route' => ['/filemanager'],
+                        'route' => ['/filemanager/file-manager/index'],
                         'label' => \Yii::t('admin/elfinder', 'All files'),
                         'icon' => Icons::o('file-o'),
                     ],
