@@ -49,4 +49,9 @@ class Module extends \yz\Module
             ]
         ];
     }
+
+    public static function elfinderController()
+    {
+        return '/filemanager/elfinder';
+    }
 }
